@@ -11,6 +11,6 @@ for i in strip_text:
 
 list_reverse = list[::-1]
 if list == list_reverse:
-    print("True")
+    print("true")
 if list != list_reverse:
-    print("False")
+    print("false")
