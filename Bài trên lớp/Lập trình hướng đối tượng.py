@@ -20,13 +20,17 @@ tuan_dung = Study("Nguyễn Tuấn Dũng", 18, "D25CQCC05-B")
 tuan_dung.say_hello()
 tuan_dung.info()
 tuan_dung.study()
+print(tuan_dung.lop_hoc)
 
 class BankAccount:
     def __init__(self, owner, balance):
-        self.ten = owner
-        self.__balance = balance
+        self.owner = owner
+        self.__balance = balance   
+
     def show_balance(self):
-        print(f"Số dư của {self.ten} là: {self.__balance}")
+        print(f"Số dư của {self.owner}: {self.__balance}")
 
 acc_1 = BankAccount("Nguyễn Tuấn Dũng", 45000)
-acc_1.show_balance
+acc_1.show_balance()
+#print(acc_1.__balance)  ---> Không hợp lệ
+
