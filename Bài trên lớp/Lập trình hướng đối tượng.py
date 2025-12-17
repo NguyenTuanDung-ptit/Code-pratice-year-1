@@ -33,4 +33,3 @@ class BankAccount:
 acc_1 = BankAccount("Nguyễn Tuấn Dũng", 45000)
 acc_1.show_balance()
 #print(acc_1.__balance)  ---> Không hợp lệ
-
