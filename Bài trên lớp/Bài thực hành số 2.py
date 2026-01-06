@@ -38,6 +38,4 @@ print("-".join(string6))
 cau = input()
 print(len(cau.split()))
 
-#Bài 8
-day_so = 
-                  
+                 
