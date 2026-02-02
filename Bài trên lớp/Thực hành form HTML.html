@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Thực hành form HTML</title>
+    </head>
+    <body>
+        <form name="khao_sat" action="" method="GET">
+            Họ và tên: <input type="text" name="ho_ten" placeholder="Nhập họ và tên vào đây" size="50" maxlength="100" required/><br>
+            Password: <input type="password" name="mat_khau" placeholder="Nhập mật khẩu vào đây" size="50" maxlength="100"/><br>
+            Giới thiệu bản thân: <textarea name="gioi_thieu" cols="20" rows="4" placeholder="Bạn hãy giới thiệu qua về bản thân mình"></textarea><br>
+            Đáp án đúng:<br>
+                <input type="radio" name="dap_an" value="a" checked="checked"/> Đáp án A
+                <input type="radio" name="dap_an" value="b"/> Đáp án B
+                <input type="radio" name="dap_an" value="c"/> Đáp án C       
+            <br>   
+            Sở thích của bạn:<br>
+                <input type="checkbox" name="so_thich[]" value="xem_phim" checked="checked"/> Xem phim 
+                <input type="checkbox" name="so_thich[]" value="nghe_nhac"/> Nghe nhạc 
+                <input type="checkbox" name="so_thich[]" value="doc_sach"/> Đọc sách   
+            <br>         
+            Chọn nơi bạn đang sống:<br>
+                <select name="thanh_pho">
+                    <option value="">---Chọn 1 thành phố---</option>
+                    <option value="hanoi" selected>Hà Nội</option>
+                    <option value="hochiminh">Hồ Chí Minh</option>
+                </select><br><br>
+            Chọn những nơi bạn từng sống:<br>
+                <select name="thanh_pho_tung_song[]" multiple="multiple" size="4">
+                    <option value="hanoi" selected="selected">Hà Nội</option>
+                    <option value="hochiminh" selected="selected">Hồ Chí Minh</option>
+                    <option value="danang">Đà Nẵng</option>
+                    <option value="dalat">Đà Lạt</option>
+                    <option value="thanhhoa">Thanh Hóa</option>
+                </select><br><br>
+            Ngày sinh: <input type="date" name="ngay_sing" id="date_of_birth"/><br><br>
+            Địa chỉ email: <input type="email" name="email" id="email" placeholder="Nhập email của bạn vào đây" size="50" maxlength="100"/><br><br>
+            Website thường hay truy cập: <input type="url" name="website" id="website"/><br/>
+            File ảnh avatar:
+                <input type="file" name="avatar" accept="img/*"/><br>
+            Nhấn để đăng ký:
+                <input type="submit" name="dangky" value="Submit" /> 
+        </form>
+    </body>
+</html>
