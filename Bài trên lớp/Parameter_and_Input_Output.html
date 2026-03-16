@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parameter and Input Output in JS</title>
+</head>
+<body>
+    <script>
+        function chao(ten){
+            document.writeln(`Xin chào ${ten}!<br>`);
+        }
+        chao("Minh");
+        chao("Lan");
+        chao("thầy Thương");
+    </script>
+    <script>
+        function tinhTong(a,b){
+            document.writeln(`Tính tổng: ${a+b}<br>`);
+        }
+        tinhTong(1,2);
+        tinhTong(10000,46164);
+    </script>
+    <script>
+        function phepNhan(c,d){
+            return c*d;
+        }
+        let kq = phepNhan(2,3);
+        document.writeln(`Kết quả phép nhân là: ${kq}<br>`);
+    </script>
+    <script>
+        function tinhchuvihinhtron(r){
+            let chuvi = 2*3.14*r;
+            return chuvi;
+        }
+        let ketqua = tinhchuvihinhtron(5);
+        document.writeln(`Tính chu vi hình tròn có bán kính là 5: ${ketqua}<br>`);
+    </script>
+</body>
+</html>
