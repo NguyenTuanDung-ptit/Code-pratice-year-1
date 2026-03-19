@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object_in_JS</title>
+</head>
+<body>
+    <script>
+        let hocsinh = {
+            ten: "Dũng",
+            tuoi: 18,
+            lop: "CNTT",
+            gioithieu: function(){
+                document.writeln(`Xin chào tôi tên là ${this.ten}!<br>`);  //Không được hardcore tên Object!  =>  Sử dụng this.
+            }
+        };
+        hocsinh.gioithieu();
+    </script>
+    <script>
+        let phone = {
+            hang: "Iphone",
+            mau: "Cam",
+            pin: 80,
+            sacpin: function(){
+                this.pin= 100;
+                document.writeln("Pin đã được sạc đầy!<br>");
+            },
+            hienthithongtin: function(){
+                document.writeln(`Điện thoại thuộc hãng ${this.hang}, có màu ${this.mau} và hiện có ${this.pin}% pin.<br>`);
+            }
+        }
+        phone.sacpin();
+        phone.hienthithongtin();
+    </script>
+</body>
+</html>
