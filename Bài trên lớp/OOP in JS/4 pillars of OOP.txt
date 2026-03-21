@@ -1,0 +1,4 @@
+1.Encapsulation(Tính đóng gói)  ==>  Reduce complexity + increase reusability (Giảm độ phức tạp + Tăng khả năng tái sử dụng)
+2.Abstraction (Tính trừu tượng)  ==>  Reduce complexity + isolate impact of changes (Giảm độ phức tạp + Cô lập tác động của các thay đổi) 
+3.Inheritance (Tính kế thừa)  ==>  Eliminate redundant code (Loại bỏ mã dư thừa)
+4.Polymorphism (Tính đa hình)  ==>  Refactor ugly switch/case statements (Tái cấu trúc các câu lệnh switch/case rườm rà)
