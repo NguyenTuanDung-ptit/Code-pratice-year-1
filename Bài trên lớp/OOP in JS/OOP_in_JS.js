@@ -130,3 +130,5 @@ circle2.draw();
 /*circle2.GetdefaultLocation(); Use a method to read*/
 
 circle2.defaultLocation = {x: 2, y: 3}; 
+circle2.defaultLocation();
+
