@@ -1,0 +1,6 @@
+- Window: môi trường chạy JS
+- Location: điều hướng URL
+- Screen: thông tin màn hình
+- Date và time events: xử lý thời gian
+- Cookie, localStorage và sessionStorage: lưu trữ dữ liệu
+- Navigator: thông tin trình duyệt và thiết bị
